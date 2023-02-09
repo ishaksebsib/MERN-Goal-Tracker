@@ -11,7 +11,7 @@ const userSchema = mongoose.Schema(
       require: [true, "Plase add a email"],
       unique: true,
     },
-    Password: {
+    password: {
       type: String,
       require: [true, "Plase add a Password"],
     },
